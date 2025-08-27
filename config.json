@@ -208,7 +208,7 @@
     "wujin1": {
       "api": "https://api.wujinapi.com/api.php/provide/vod",
       "name": "TV-无尽资源",
-      "detail": "",
+      "detail": "https://api.wujinapi.com",
       "headers": {
         "Referer": "https://api.wujinapi.com",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
@@ -217,7 +217,7 @@
     "wujin2": {
       "api": "https://api.wujinapi.me/api.php/provide/vod",
       "name": "TV-无尽资源",
-      "detail": "",
+      "detail": "https://api.wujinapi.me",
       "headers": {
         "Referer": "https://api.wujinapi.me",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
@@ -226,7 +226,7 @@
     "wujin3": {
       "api": "https://api.wujinapi.net/api.php/provide/vod",
       "name": "TV-无尽资源",
-      "detail": "",
+      "detail": "https://api.wujinapi.net",
       "headers": {
         "Referer": "https://api.wujinapi.net",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
@@ -235,7 +235,7 @@
     "wujin4": {
       "api": "https://api.wujinapi.cc/api.php/provide/vod",
       "name": "TV-无尽资源",
-      "detail": "",
+      "detail": "https://api.wujinapi.cc",
       "headers": {
         "Referer": "https://api.wujinapi.cc",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
@@ -478,7 +478,7 @@
     "bbgzy": {
       "api": "https://api.yparse.com/api/json",
       "name": "TV-步步高资源",
-      "detail": "",
+      "detail": "https://api.yparse.com",
       "headers": {
         "Referer": "https://api.yparse.com",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
