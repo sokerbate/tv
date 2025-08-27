@@ -1,6 +1,6 @@
 name: Build MoonTV Subscription
 
-# 只有 config.json 修改时才触发
+# 只有 config.json 修改时触发
 on:
   push:
     paths:
