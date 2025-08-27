@@ -4,269 +4,493 @@
     "dyttzy": {
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
       "name": "TV-电影天堂资源",
-      "detail": "http://caiji.dyttzyapi.com"
+      "detail": "http://caiji.dyttzyapi.com",
+      "headers": {
+        "Referer": "https://caiji.dyttzyapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "heimuer": {
       "api": "https://json.heimuer.xyz/api.php/provide/vod",
       "name": "TV-黑木耳",
-      "detail": "https://heimuer.tv"
+      "detail": "https://heimuer.tv",
+      "headers": {
+        "Referer": "https://heimuer.tv",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "heimuer2": {
-      "name": "TV-黑木耳点播",
       "api": "https://json02.heimuer.xyz/api.php/provide/vod",
-      "detail": "https://json02.heimuer.xyz"
+      "name": "TV-黑木耳点播",
+      "detail": "https://json02.heimuer.xyz",
+      "headers": {
+        "Referer": "https://json02.heimuer.xyz",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "ruyi": {
       "api": "https://cj.rycjapi.com/api.php/provide/vod",
-      "name": "TV-如意资源"
+      "name": "TV-如意资源",
+      "headers": {
+        "Referer": "https://cj.rycjapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "bfzy": {
       "api": "https://bfzyapi.com/api.php/provide/vod",
-      "name": "TV-暴风资源"
+      "name": "TV-暴风资源",
+      "headers": {
+        "Referer": "https://bfzyapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "tyyszy": {
       "api": "https://tyyszy.com/api.php/provide/vod",
       "name": "TV-天涯资源",
-      "detail": "https://tyyszy.com"
+      "detail": "https://tyyszy.com",
+      "headers": {
+        "Referer": "https://tyyszy.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "ffzy1": {
       "api": "https://api.ffzyapi.com/api.php/provide/vod",
       "name": "TV-非凡影视",
-      "detail": "http://ffzy5.tv"
+      "detail": "http://ffzy5.tv",
+      "headers": {
+        "Referer": "http://ffzy5.tv",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "ffzy2": {
-      "name": "TV-非凡资源",
       "api": "https://cj.ffzyapi.com/api.php/provide/vod",
-      "detail": "https://cj.ffzyapi.com"
+      "name": "TV-非凡资源",
+      "detail": "https://cj.ffzyapi.com",
+      "headers": {
+        "Referer": "https://cj.ffzyapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "zy360": {
       "api": "https://360zy.com/api.php/provide/vod",
       "name": "TV-360资源",
-      "detail": "https://360zy.com"
+      "detail": "https://360zy.com",
+      "headers": {
+        "Referer": "https://360zy.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "maotaizy": {
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
       "name": "TV-茅台资源",
-      "detail": "https://caiji.maotaizy.cc"
+      "detail": "https://caiji.maotaizy.cc",
+      "headers": {
+        "Referer": "https://caiji.maotaizy.cc",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "wolong": {
       "api": "https://wolongzyw.com/api.php/provide/vod",
       "name": "TV-卧龙资源",
-      "detail": "https://wolongzyw.com"
+      "detail": "https://wolongzyw.com",
+      "headers": {
+        "Referer": "https://wolongzyw.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "wldb": {
-      "name": "TV-卧龙点播",
       "api": "https://collect.wolongzyw.com/api.php/provide/vod",
-      "detail": "https://collect.wolongzyw.com"
+      "name": "TV-卧龙点播",
+      "detail": "https://collect.wolongzyw.com",
+      "headers": {
+        "Referer": "https://collect.wolongzyw.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "wlzy": {
-      "name": "TV-卧龙资源",
       "api": "https://collect.wolongzy.cc/api.php/provide/vod",
-      "detail": ""
+      "name": "TV-卧龙资源",
+      "detail": "",
+      "headers": {
+        "Referer": "https://collect.wolongzy.cc",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "jisu": {
       "api": "https://jszyapi.com/api.php/provide/vod",
       "name": "TV-极速资源",
-      "detail": "https://jszyapi.com"
+      "detail": "https://jszyapi.com",
+      "headers": {
+        "Referer": "https://jszyapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "dbzy1": {
-      "name": "TV-豆瓣资源",
       "api": "https://caiji.dbzy.tv/api.php/provide/vod",
-      "detail": "https://caiji.dbzy.tv"
+      "name": "TV-豆瓣资源",
+      "detail": "https://caiji.dbzy.tv",
+      "headers": {
+        "Referer": "https://caiji.dbzy.tv",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "dbzy": {
       "api": "https://dbzy.tv/api.php/provide/vod",
       "name": "TV-豆瓣资源",
-      "detail": "https://dbzy.tv"
+      "detail": "https://dbzy.tv",
+      "headers": {
+        "Referer": "https://dbzy.tv",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "plzy": {
-      "name": "TV-飘零资源",
       "api": "https://p2100.net/api.php/provide/vod",
-      "detail": "https://p2100.net"
+      "name": "TV-飘零资源",
+      "detail": "https://p2100.net",
+      "headers": {
+        "Referer": "https://p2100.net",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "mozhua": {
       "api": "https://mozhuazy.com/api.php/provide/vod",
       "name": "TV-魔爪资源",
-      "detail": "https://mozhuazy.com"
+      "detail": "https://mozhuazy.com",
+      "headers": {
+        "Referer": "https://mozhuazy.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "mddm": {
-      "name": "TV-魔都动漫",
       "api": "https://caiji.moduapi.cc/api.php/provide/vod",
-      "detail": "https://caiji.moduapi.cc"
+      "name": "TV-魔都动漫",
+      "detail": "https://caiji.moduapi.cc",
+      "headers": {
+        "Referer": "https://caiji.moduapi.cc",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "mdzy": {
       "api": "https://www.mdzyapi.com/api.php/provide/vod",
       "name": "TV-魔都资源",
-      "detail": "https://www.mdzyapi.com"
+      "detail": "https://www.mdzyapi.com",
+      "headers": {
+        "Referer": "https://www.mdzyapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "zddb": {
-      "name": "TV-最大点播",
       "api": "http://zuidazy.me/api.php/provide/vod",
-      "detail": "http://zuidazy.me"
+      "name": "TV-最大点播",
+      "detail": "http://zuidazy.me",
+      "headers": {
+        "Referer": "http://zuidazy.me",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "zuid": {
       "api": "https://api.zuidapi.com/api.php/provide/vod",
       "name": "TV-最大资源",
-      "detail": "https://api.zuidapi.com"
+      "detail": "https://api.zuidapi.com",
+      "headers": {
+        "Referer": "https://api.zuidapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "yinghua": {
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
-      "name": "TV-樱花资源"
+      "name": "TV-樱花资源",
+      "headers": {
+        "Referer": "https://m3u8.apiyhzy.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "wujin1": {
-      "name": "TV-无尽资源",
       "api": "https://api.wujinapi.com/api.php/provide/vod",
-      "detail": ""
+      "name": "TV-无尽资源",
+      "detail": "",
+      "headers": {
+        "Referer": "https://api.wujinapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "wujin2": {
-      "name": "TV-无尽资源",
       "api": "https://api.wujinapi.me/api.php/provide/vod",
-      "detail": ""
+      "name": "TV-无尽资源",
+      "detail": "",
+      "headers": {
+        "Referer": "https://api.wujinapi.me",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "wujin3": {
-      "name": "TV-无尽资源",
       "api": "https://api.wujinapi.net/api.php/provide/vod",
-      "detail": ""
+      "name": "TV-无尽资源",
+      "detail": "",
+      "headers": {
+        "Referer": "https://api.wujinapi.net",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "wujin4": {
-      "name": "TV-无尽资源",
       "api": "https://api.wujinapi.cc/api.php/provide/vod",
-      "detail": ""
+      "name": "TV-无尽资源",
+      "detail": "",
+      "headers": {
+        "Referer": "https://api.wujinapi.cc",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "wwzy": {
       "api": "https://wwzy.tv/api.php/provide/vod",
       "name": "TV-旺旺短剧",
-      "detail": "https://wwzy.tv"
+      "detail": "https://wwzy.tv",
+      "headers": {
+        "Referer": "https://wwzy.tv",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "ikun": {
       "api": "https://ikunzyapi.com/api.php/provide/vod",
       "name": "TV-iKun资源",
-      "detail": "https://ikunzyapi.com"
+      "detail": "https://ikunzyapi.com",
+      "headers": {
+        "Referer": "https://ikunzyapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "lzi": {
       "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "name": "TV-量子资源站"
+      "name": "TV-量子资源站",
+      "headers": {
+        "Referer": "https://cj.lziapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "xiaomaomi": {
       "api": "https://zy.xmm.hk/api.php/provide/vod",
       "name": "TV-小猫咪资源",
-      "detail": "https://zy.xmm.hk"
+      "detail": "https://zy.xmm.hk",
+      "headers": {
+        "Referer": "https://zy.xmm.hk",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "xinlang": {
       "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
       "name": "TV-新浪资源",
-      "detail": "https://api.xinlangapi.com"
+      "detail": "https://api.xinlangapi.com",
+      "headers": {
+        "Referer": "https://api.xinlangapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "huya": {
       "api": "https://www.huyaapi.com/api.php/provide/vod",
       "name": "TV-虎牙资源",
-      "detail": "https://www.huyaapi.com"
+      "detail": "https://www.huyaapi.com",
+      "headers": {
+        "Referer": "https://www.huyaapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
-    "api_9": {
-      "name": "TV-丫丫点播",
+    "yydb": {
       "api": "https://cj.yayazy.net/api.php/provide/vod",
-      "detail": "https://cj.yayazy.net"
+      "name": "TV-丫丫点播",
+      "detail": "https://cj.yayazy.net",
+      "headers": {
+        "Referer": "https://cj.yayazy.net",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "guangsu": {
       "api": "https://api.guangsuapi.com/api.php/provide/vod",
       "name": "TV-光速资源",
-      "detail": "https://api.guangsuapi.com"
+      "detail": "https://api.guangsuapi.com",
+      "headers": {
+        "Referer": "https://api.guangsuapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "hongniu": {
       "api": "https://www.hongniuzy2.com/api.php/provide/vod",
       "name": "TV-红牛资源",
-      "detail": "https://www.hongniuzy2.com"
+      "detail": "https://www.hongniuzy2.com",
+      "headers": {
+        "Referer": "https://www.hongniuzy2.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "bdyzy": {
-      "name": "TV-百度云资源",
       "api": "https://api.apibdzy.com/api.php/provide/vod",
-      "detail": "https://api.apibdzy.com"
+      "name": "TV-百度云资源",
+      "detail": "https://api.apibdzy.com",
+      "headers": {
+        "Referer": "https://api.apibdzy.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "smy": {
-      "name": "TV-神马云",
       "api": "https://api.1080zyku.com/inc/apijson.php/",
-      "detail": "https://api.1080zyku.com"
+      "name": "TV-神马云",
+      "detail": "https://api.1080zyku.com",
+      "headers": {
+        "Referer": "https://api.1080zyku.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "suoni": {
       "api": "https://suoniapi.com/api.php/provide/vod",
-      "name": "TV-索尼资源"
+      "name": "TV-索尼资源",
+      "headers": {
+        "Referer": "https://suoniapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "ckzy": {
-      "name": "TV-CK资源",
       "api": "https://ckzy.me/api.php/provide/vod",
-      "detail": "https://ckzy.me"
+      "name": "TV-CK资源",
+      "detail": "https://ckzy.me",
+      "headers": {
+        "Referer": "https://ckzy.me",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "ukzy1": {
       "api": "https://api.ukuapi88.com/api.php/provide/vod",
       "name": "TV-U酷资源",
-      "detail": "https://api.ukuapi88.com"
+      "detail": "https://api.ukuapi88.com",
+      "headers": {
+        "Referer": "https://api.ukuapi88.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "ukzy2": {
-      "name": "TV-U酷资源",
       "api": "https://api.ukuapi.com/api.php/provide/vod",
-      "detail": "https://api.ukuapi.com"
+      "name": "TV-U酷资源",
+      "detail": "https://api.ukuapi.com",
+      "headers": {
+        "Referer": "https://api.ukuapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "kuaiche": {
       "api": "https://caiji.kuaichezy.org/api.php/provide/vod",
-      "name": "TV-快车资源网"
+      "name": "TV-快车资源网",
+      "headers": {
+        "Referer": "https://caiji.kuaichezy.org",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "jydb": {
-      "name": "TV-金鹰点播",
       "api": "https://jinyingzy.com/api.php/provide/vod",
-      "detail": "https://jinyingzy.com"
+      "name": "TV-金鹰点播",
+      "detail": "https://jinyingzy.com",
+      "headers": {
+        "Referer": "https://jinyingzy.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "jinying": {
       "api": "https://jyzyapi.com/provide/vod",
       "name": "TV-金鹰资源",
-      "detail": "https://jyzyapi.com"
+      "detail": "https://jyzyapi.com",
+      "headers": {
+        "Referer": "https://jyzyapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "taopian": {
       "api": "https://taopianapi.com/cjapi/sda/vod",
-      "name": "TV-淘片资源网"
+      "name": "TV-淘片资源网",
+      "headers": {
+        "Referer": "https://taopianapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "niuniu": {
       "api": "https://api.niuniuzy.me/api.php/provide/vod",
       "name": "TV-牛牛资源网",
-      "detail": "https://api.niuniuzy.me"
+      "detail": "https://api.niuniuzy.me",
+      "headers": {
+        "Referer": "https://api.niuniuzy.me",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "iqiyi": {
       "api": "https://iqiyizyapi.com/api.php/provide/vod",
-      "name": "TV-爱奇艺影视资源"
+      "name": "TV-爱奇艺影视资源",
+      "headers": {
+        "Referer": "https://iqiyizyapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "qilin": {
       "api": "https://www.qilinzyz.com/api.php/provide/vod",
-      "name": "TV-麒麟资源"
+      "name": "TV-麒麟资源",
+      "headers": {
+        "Referer": "https://www.qilinzyz.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "haohua": {
       "api": "https://hhzyapi.com/api.php/provide/vod",
       "name": "TV-豪华资源",
-      "detail": "https://hhzyapi.com"
+      "detail": "https://hhzyapi.com",
+      "headers": {
+        "Referer": "https://hhzyapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "huohua": {
       "api": "https://cj.huohua.live/api.php/provide/vod",
-      "name": "TV-火花资源"
+      "name": "TV-火花资源",
+      "headers": {
+        "Referer": "https://cj.huohua.live",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "subocj": {
       "api": "https://subocj.com/api.php/provide/vod",
-      "name": "TV-速播资源"
+      "name": "TV-速播资源",
+      "headers": {
+        "Referer": "https://subocj.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "maoyan": {
       "api": "https://api.maoyanapi.top/api.php/provide/vod",
-      "name": "TV-猫眼资源"
+      "name": "TV-猫眼资源",
+      "headers": {
+        "Referer": "https://api.maoyanapi.top",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "wwzy2": {
       "api": "https://api.wwzy.tv/api.php/provide/vod",
       "name": "TV-旺旺资源",
-      "detail": "https://api.wwzy.tv"
+      "detail": "https://api.wwzy.tv",
+      "headers": {
+        "Referer": "https://api.wwzy.tv",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "bbgzy": {
       "api": "https://api.yparse.com/api/json",
       "name": "TV-步步高资源",
-      "detail": ""
+      "detail": "",
+      "headers": {
+        "Referer": "https://api.yparse.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     },
     "ysgc": {
       "api": "https://cj.lziapi.com/api.php/provide/vod/",
-      "name": "TV-影视工厂"
+      "name": "TV-影视工厂",
+      "headers": {
+        "Referer": "https://cj.lziapi.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
     }
   }
 }
