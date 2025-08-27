@@ -3,14 +3,17 @@ name: Build MoonTV Subscription
 on:
   push:
     branches:
-      - main   # 你也可以改成 master 或其他分支
+      - main   # 触发分支，可改成 master
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false  # 避免用默认 token
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -23,8 +26,12 @@ jobs:
       - name: Run script
         run: python validate_and_encode.py
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: moontv-subscription
-          path: output.txt
+      - name: Commit and Push output
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add output.txt
+          git commit -m "Auto update output.txt [skip ci]" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
