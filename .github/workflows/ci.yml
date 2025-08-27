@@ -1,12 +1,13 @@
 name: Build MoonTV Subscription
 
+# 只有 config.json 修改时才触发
 on:
   push:
-    branches:
-      - main
+    paths:
+      - config.json
 
 permissions:
-  contents: write  # 允许 push
+  contents: write  # 允许 push 回仓库
 
 jobs:
   build:
@@ -23,10 +24,10 @@ jobs:
         with:
           python-version: '3.x'
 
-      # 安装 base58
+      # 安装依赖
       - run: pip install base58
 
-      # 执行脚本生成 output.txt
+      # 执行生成脚本
       - run: python validate_and_encode.py
 
       # 自动 commit 并 push
@@ -34,7 +35,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add output.txt
-          git commit -m "Auto update output.txt [skip ci]" || echo "No changes to commit"
+          git diff --cached --quiet || git commit -m "Auto update output.txt [skip ci]"
           git push origin HEAD:${{ github.ref }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
