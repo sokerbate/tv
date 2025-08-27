@@ -1,31 +1,30 @@
-name: Validate and Encode
+name: Build MoonTV Subscription
 
 on:
   push:
     branches:
-      - main   # 当 main 分支有提交时运行
-  pull_request:
-    branches:
-      - main   # PR 时也会运行
-  workflow_dispatch:  # 支持手动运行
+      - main   # 你也可以改成 master 或其他分支
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.x'
 
       - name: Install dependencies
-        run: |
-          pip install base58
+        run: pip install base58
 
-      - name: Run validation and encoding
-        run: |
-          python validate_and_encode.py
+      - name: Run script
+        run: python validate_and_encode.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: moontv-subscription
+          path: output.txt
