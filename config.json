@@ -79,20 +79,10 @@
       "name": "TV-豆瓣资源",
       "detail": "https://dbzy.tv"
     },
-    "plzy": {
-      "api": "https://p2100.net/api.php/provide/vod",
-      "name": "TV-飘零资源",
-      "detail": "https://p2100.net"
-    },
     "mozhua": {
       "api": "https://mozhuazy.com/api.php/provide/vod",
       "name": "TV-魔爪资源",
       "detail": "https://mozhuazy.com"
-    },
-    "mddm": {
-      "api": "https://caiji.moduapi.cc/api.php/provide/vod",
-      "name": "TV-魔都动漫",
-      "detail": "https://caiji.moduapi.cc"
     },
     "mdzy": {
       "api": "https://www.mdzyapi.com/api.php/provide/vod",
@@ -132,16 +122,6 @@
       "name": "TV-无尽资源",
       "detail": "https://api.wujinapi.cc"
     },
-    "wwzy": {
-      "api": "https://wwzy.tv/api.php/provide/vod",
-      "name": "TV-旺旺短剧",
-      "detail": "https://wwzy.tv"
-    },
-    "ikun": {
-      "api": "https://ikunzyapi.com/api.php/provide/vod",
-      "name": "TV-iKun资源",
-      "detail": "https://ikunzyapi.com"
-    },
     "lzi": {
       "api": "https://cj.lziapi.com/api.php/provide/vod",
       "name": "TV-量子资源站"
@@ -151,36 +131,6 @@
       "name": "TV-小猫咪资源",
       "detail": "https://zy.xmm.hk"
     },
-    "xinlang": {
-      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
-      "name": "TV-新浪资源",
-      "detail": "https://api.xinlangapi.com"
-    },
-    "huya": {
-      "api": "https://www.huyaapi.com/api.php/provide/vod",
-      "name": "TV-虎牙资源",
-      "detail": "https://www.huyaapi.com"
-    },
-    "yydb": {
-      "api": "https://cj.yayazy.net/api.php/provide/vod",
-      "name": "TV-丫丫点播",
-      "detail": "https://cj.yayazy.net"
-    },
-    "guangsu": {
-      "api": "https://api.guangsuapi.com/api.php/provide/vod",
-      "name": "TV-光速资源",
-      "detail": "https://api.guangsuapi.com"
-    },
-    "hongniu": {
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "name": "TV-红牛资源",
-      "detail": "https://www.hongniuzy2.com"
-    },
-    "bdyzy": {
-      "api": "https://api.apibdzy.com/api.php/provide/vod",
-      "name": "TV-百度云资源",
-      "detail": "https://api.apibdzy.com"
-    },
     "smy": {
       "api": "https://api.1080zyku.com/inc/apijson.php/",
       "name": "TV-神马云",
@@ -189,39 +139,6 @@
     "suoni": {
       "api": "https://suoniapi.com/api.php/provide/vod",
       "name": "TV-索尼资源"
-    },
-    "ckzy": {
-      "api": "https://ckzy.me/api.php/provide/vod",
-      "name": "TV-CK资源",
-      "detail": "https://ckzy.me"
-    },
-    "ukzy1": {
-      "api": "https://api.ukuapi88.com/api.php/provide/vod",
-      "name": "TV-U酷资源",
-      "detail": "https://api.ukuapi88.com"
-    },
-    "ukzy2": {
-      "api": "https://api.ukuapi.com/api.php/provide/vod",
-      "name": "TV-U酷资源",
-      "detail": "https://api.ukuapi.com"
-    },
-    "kuaiche": {
-      "api": "https://caiji.kuaichezy.org/api.php/provide/vod",
-      "name": "TV-快车资源网"
-    },
-    "jydb": {
-      "api": "https://jinyingzy.com/api.php/provide/vod",
-      "name": "TV-金鹰点播",
-      "detail": "https://jinyingzy.com"
-    },
-    "jinying": {
-      "api": "https://jyzyapi.com/provide/vod",
-      "name": "TV-金鹰资源",
-      "detail": "https://jyzyapi.com"
-    },
-    "taopian": {
-      "api": "https://taopianapi.com/cjapi/sda/vod",
-      "name": "TV-淘片资源网"
     },
     "niuniu": {
       "api": "https://api.niuniuzy.me/api.php/provide/vod",
@@ -240,32 +157,6 @@
       "api": "https://hhzyapi.com/api.php/provide/vod",
       "name": "TV-豪华资源",
       "detail": "https://hhzyapi.com"
-    },
-    "huohua": {
-      "api": "https://cj.huohua.live/api.php/provide/vod",
-      "name": "TV-火花资源"
-    },
-    "subocj": {
-      "api": "https://subocj.com/api.php/provide/vod",
-      "name": "TV-速播资源"
-    },
-    "maoyan": {
-      "api": "https://api.maoyanapi.top/api.php/provide/vod",
-      "name": "TV-猫眼资源"
-    },
-    "wwzy2": {
-      "api": "https://api.wwzy.tv/api.php/provide/vod",
-      "name": "TV-旺旺资源",
-      "detail": "https://api.wwzy.tv"
-    },
-    "bbgzy": {
-      "api": "https://api.yparse.com/api/json",
-      "name": "TV-步步高资源",
-      "detail": "https://api.yparse.com"
-    },
-    "ysgc": {
-      "api": "https://cj.lziapi.com/api.php/provide/vod/",
-      "name": "TV-影视工厂"
     }
   }
 }
