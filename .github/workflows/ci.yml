@@ -1,10 +1,7 @@
 name: Build MoonTV Subscription
 
-# 每次 push 到 main 分支时触发
 on:
   push:
-    paths:
-      - "config.json"
     branches:
       - main
 
@@ -21,7 +18,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      # 设置 Python
+      # 安装 Python
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
@@ -29,7 +26,7 @@ jobs:
       # 安装 base58
       - run: pip install base58
 
-      # 运行 Python 脚本生成 output.txt
+      # 执行脚本生成 output.txt
       - run: python validate_and_encode.py
 
       # 自动 commit 并 push
