@@ -62,7 +62,7 @@
     "wlzy": {
       "api": "https://collect.wolongzy.cc/api.php/provide/vod",
       "name": "TV-卧龙资源",
-      "detail": "https://collect.wolongzy.cc",
+      "detail": "https://collect.wolongzy.cc"
     },
     "jisu": {
       "api": "https://jszyapi.com/api.php/provide/vod",
@@ -221,7 +221,7 @@
     },
     "taopian": {
       "api": "https://taopianapi.com/cjapi/sda/vod",
-      "name": "TV-淘片资源网",
+      "name": "TV-淘片资源网"
     },
     "niuniu": {
       "api": "https://api.niuniuzy.me/api.php/provide/vod",
