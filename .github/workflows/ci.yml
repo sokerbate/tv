@@ -3,31 +3,29 @@ name: Build MoonTV Subscription
 on:
   push:
     branches:
-      - main   # 如果你用 master，请改这里
+      - main
+
+permissions:
+  contents: write  # 允许 push
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
-        run: pip install base58
+      - run: pip install base58
 
-      - name: Run script
-        run: python validate_and_encode.py
+      - run: python validate_and_encode.py
 
-      - name: Commit and Push output
-        run: |
+      - run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add output.txt
