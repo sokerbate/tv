@@ -13,8 +13,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          persist-credentials: false  # 避免用默认 token
-
+          fetch-depth: 0   # 拉完整历史，避免 push 报错
+          
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
