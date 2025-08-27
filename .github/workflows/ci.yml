@@ -13,18 +13,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 拉取仓库
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      # 安装 Python
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
+      # 安装 base58
       - run: pip install base58
 
+      # 执行脚本生成 output.txt
       - run: python validate_and_encode.py
 
+      # 自动 commit 并 push
       - run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
