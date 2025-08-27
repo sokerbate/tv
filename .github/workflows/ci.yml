@@ -1,31 +1,31 @@
-name: Validate JSON & Encode Base58
+name: Validate and Encode
 
 on:
-  pull_request:
-    paths:
-      - "*.json"
   push:
-    paths:
-      - "*.json"
+    branches:
+      - main   # 当 main 分支有提交时运行
+  pull_request:
+    branches:
+      - main   # PR 时也会运行
+  workflow_dispatch:  # 支持手动运行
 
 jobs:
-  check-json:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: '3.11'
 
-      - name: Install base58
-        run: pip install base58
-
-      - name: Validate and Encode JSON
+      - name: Install dependencies
         run: |
-          for f in *.json; do
-            echo "Processing $f..."
-            python validate_and_encode.py "$f"
-          done
+          pip install base58
+
+      - name: Run validation and encoding
+        run: |
+          python validate_and_encode.py
